@@ -1,0 +1,163 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+  
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+nav ul li {
+    margin: 0 1rem;
+}
+  
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+  
+nav ul li a:hover {
+    color: #f2f2f2;
+}
+  
+.section {
+    padding: 4rem 2rem;
+    margin: 3rem 0;
+    text-align: center;
+}
+  
+.screen {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+  
+#screen1 {
+    background-color: #f2f2f2;
+}
+  
+#screen2 {
+    background-color: #e6e6e6;
+}
+  
+#screen3 {
+    background-color: #d9d9d9;
+}
+  
+#screen4 {
+    background-color: #cccccc;
+}
+  
+#screen5 {
+    background-color: #bfbfbf;
+}
+  
+.scroll-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+  
+.scroll-btn:hover {
+    background-color: #555;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 0.8rem;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+  
+button {
+    width: 90%;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+  
+button:hover {
+    background-color: #555;
+}
+
+.info, form {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+  
+footer p {
+    margin: 0;
+}
+  
+footer nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.container {
+    display: flex;
+}
+
+@media (min-height: 600px) and (min-width: 1920px) {
+    #screen1 {
+      background-size: cover;
+    }
+}
+  
+@media (min-height: 830px) {
+    #screen1 {
+      background-position: center -210px;
+    }
+}
+  
+@media (min-height: 680px) and (max-height: 829px) {
+    #screen1 {
+      background-position: center -300px;
+    }
+}
+  
+@media (min-height: 500px) and (max-height: 679px) {
+    #screen1 {
+      background-position: center -400px;
+    }
+}
+  
+@media (max-height: 499px) {
+    #screen1 {
+      background-position: center -450px;
+    }
+}
